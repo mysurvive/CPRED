@@ -1,0 +1,59 @@
+{
+    "Actor":{
+        "types": ["player", "npc", "vehicle"],
+        "templates":{
+            "statistics": {
+                "int":{
+                    "base": 0,
+                    "mod": 0
+                },
+                "ref":{
+                    "base": 0,
+                    "mod": 0,
+                    "itemmod": 0
+                },
+                "dex":{
+                    "base": 0,
+                    "mod": 0,
+                    "itemmod": 0
+                },
+                "tech":{
+                    "base": 0,
+                    "mod": 0,
+                    "itemmod": 0
+                },
+                "cool":{
+                    "base": 0,
+                    "mod": 0,
+                    "itemmod": 0
+                },
+                "will":{
+                    "base": 0,
+                    "mod": 0,
+                    "itemmod": 0
+                },
+                "luck":{
+                    "base": 0,
+                    "mod": 0,
+                    "itemmod": 0
+                },
+                "move":{
+                    "base": 0,
+                    "mod": 0,
+                    "itemmod": 0
+                },
+                "body":{
+                    "base": 0,
+                    "mod": 0,
+                    "itemmod": 0
+                },
+                "emp":{
+                    "base": 0,
+                    "mod": 0,
+                    "itemmod": 0
+                }
+        }
+        }
+    }
+}
+
