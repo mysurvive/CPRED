@@ -2,6 +2,51 @@
     "Actor":{
         "types": ["player", "npc", "vehicle"],
         "templates":{
+            "role":{
+                "rolename": "Role Name",
+                "roleability": "Role Ability",
+                "roleabilitylevel": 4
+            },
+            "lifepath":{
+                "culturalregion": "",
+                "culturallanguage": "",
+                "personality": "",
+                "clothingstyle": "",
+                "hairstyle": "",
+                "affectation": "",
+                "valuemost": "",
+                "peoplefeelings": "",
+                "valuedperson": "",
+                "valuedpossession": "",
+                "origin": "",
+                "childhood": "",
+                "crisis": "",
+                "numfriends": 0,
+                "friendrelationship1": "",
+                "friendrelationship2": "",
+                "friendrelationship3": "",
+                "numenemies": 0,
+                "enemy1": "",
+                "enemy2": "",
+                "enemy3": "",
+                "wrongdoing1": "",
+                "wrongdoing2": "",
+                "wrongdoing3": "",
+                "forces1": "",
+                "forces2": "",
+                "forces3": "",
+                "enemyoutcome1": "",
+                "enemyoutcome2": "",
+                "enemyoutcome3": "",
+                "numloveaffairs": 0,
+                "loveaffair1": "",
+                "loveaffair2": "",
+                "loveaffair3": "",
+                "lifegoal": ""
+            },
+            "rolebasedlifepath":{
+                "description": ""
+            },
             "statistics": {
                 "int":{
                     "base": 0,
@@ -52,7 +97,21 @@
                     "mod": 0,
                     "itemmod": 0
                 }
-        }
+            },
+            "derivedstats":{
+                "hitpoints":{
+                    "value": 0,
+                    "max": 75
+                },
+                "humanity":{
+                    "value": 0,
+                    "max": 100
+                },
+                "luckpoints":{
+                    "value": 0,
+                    "max": 10
+                }
+            }
         }
     }
 }

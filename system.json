@@ -7,12 +7,9 @@
     "author": "MySurvive",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion": "0.7.9",
-    "scripts": [
-    ],
-    "esmodules": [
-    ],
-    "styles": [
-    ],
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
     "packs": [
       {
       }
@@ -24,11 +21,10 @@
         "path": "lang/en.json"
       }
     ],
-    "socket": false,
     "gridDistance": 2,
     "gridUnits": "yds",
-    "primaryTokenAttribute": "resources.health",
-    "secondaryTokenAttribute": "resources.luck",
+    "primaryTokenAttribute": "derivedstats.health",
+    "secondaryTokenAttribute": "derivedstats.luck",
     "url": "https://github.com/mysurvive/CPRED.git",
     "manifest": "https://raw.githubusercontent.com/mysurvive/CPRED/main/system.json",
     "download": "https://github.com/mysurvive/CPRED/archive/main.zip"
