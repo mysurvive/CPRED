@@ -2,7 +2,7 @@
     "name": "CPRED",
     "title": "Cyberpunk RED",
     "description": "A fan-made foundry system for R Talsorian Games' Cyberpunk RED system.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "templateVersion": 2,
     "author": "MySurvive",
     "minimumCoreVersion": "0.7.9",
@@ -23,8 +23,6 @@
     ],
     "gridDistance": 2,
     "gridUnits": "yds",
-    "primaryTokenAttribute": "derivedstats.health",
-    "secondaryTokenAttribute": "derivedstats.luckpoints",
     "url": "https://github.com/mysurvive/CPRED.git",
     "manifest": "https://raw.githubusercontent.com/mysurvive/CPRED/main/system.json",
     "download": "https://github.com/mysurvive/CPRED/archive/main.zip"
