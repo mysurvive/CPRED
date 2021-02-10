@@ -5,6 +5,8 @@
     "version": "0.0.1",
     "templateVersion": 2,
     "author": "MySurvive",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.7.9",
     "scripts": [
     ],
     "esmodules": [
@@ -29,5 +31,5 @@
     "secondaryTokenAttribute": "resources.luck",
     "url": "https://github.com/mysurvive/CPRED.git",
     "manifest": "https://github.com/mysurvive/CPRED/blob/main/system.json",
-    "download": "https://your/packaged/download/archive.zip"
+    "download": "https://github.com/mysurvive/CPRED/archive/main.zip"
   }
