@@ -2,57 +2,134 @@
     "Actor":{
         "types": ["player", "npc", "vehicle"],
         "templates":{
+            "name": "",
+            "role":{
+                "rolename": "Role Name",
+                "roleability": "Role Ability",
+                "roleabilitylevel": 4
+            },
+            "lifepath":{
+                "culturalregion": "",
+                "culturallanguage": "",
+                "personality": "",
+                "clothingstyle": "",
+                "hairstyle": "",
+                "affectation": "",
+                "valuemost": "",
+                "peoplefeelings": "",
+                "valuedperson": "",
+                "valuedpossession": "",
+                "origin": "",
+                "childhood": "",
+                "crisis": "",
+                "numfriends": 0,
+                "friendrelationship1": "",
+                "friendrelationship2": "",
+                "friendrelationship3": "",
+                "numenemies": 0,
+                "enemy1": "",
+                "enemy2": "",
+                "enemy3": "",
+                "wrongdoing1": "",
+                "wrongdoing2": "",
+                "wrongdoing3": "",
+                "forces1": "",
+                "forces2": "",
+                "forces3": "",
+                "enemyoutcome1": "",
+                "enemyoutcome2": "",
+                "enemyoutcome3": "",
+                "numloveaffairs": 0,
+                "loveaffair1": "",
+                "loveaffair2": "",
+                "loveaffair3": "",
+                "lifegoal": ""
+            },
+            "rolebasedlifepath":{
+                "description": ""
+            },
             "statistics": {
                 "int":{
+                    "label": "INT",
                     "base": 0,
                     "mod": 0
                 },
                 "ref":{
+                    "label": "REF",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "dex":{
+                    "label": "DEX",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "tech":{
+                    "label": "TECH",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "cool":{
+                    "label": "COOL",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "will":{
+                    "label": "WILL",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "luck":{
+                    "label": "LUCK",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "move":{
+                    "label": "MOVE",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "body":{
+                    "label": "BODY",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "emp":{
+                    "label": "EMP",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 }
-        }
+            },
+            "derivedstats":{
+                "hitpoints":{
+                    "value": 0,
+                    "min": 0,
+                    "max": 75
+                },
+                "humanity":{
+                    "value": 0,
+                    "max": 100
+                },
+                "luckpoints":{
+                    "value": 0,
+                    "min": 0,
+                    "max": 10
+                },
+                "emppoints":{
+                    "value": 0,
+                    "min": 0,
+                    "max": 10
+                }
+            }
         }
     }
 }
