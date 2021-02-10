@@ -2,6 +2,7 @@
     "Actor":{
         "types": ["player", "npc", "vehicle"],
         "templates":{
+            "name": "",
             "role":{
                 "rolename": "Role Name",
                 "roleability": "Role Ability",
@@ -49,50 +50,60 @@
             },
             "statistics": {
                 "int":{
+                    "label": "INT",
                     "base": 0,
                     "mod": 0
                 },
                 "ref":{
+                    "label": "REF",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "dex":{
+                    "label": "DEX",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "tech":{
+                    "label": "TECH",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "cool":{
+                    "label": "COOL",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "will":{
+                    "label": "WILL",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "luck":{
+                    "label": "LUCK",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "move":{
+                    "label": "MOVE",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "body":{
+                    "label": "BODY",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
                 },
                 "emp":{
+                    "label": "EMP",
                     "base": 0,
                     "mod": 0,
                     "itemmod": 0
@@ -101,6 +112,7 @@
             "derivedstats":{
                 "hitpoints":{
                     "value": 0,
+                    "min": 0,
                     "max": 75
                 },
                 "humanity":{
@@ -109,6 +121,12 @@
                 },
                 "luckpoints":{
                     "value": 0,
+                    "min": 0,
+                    "max": 10
+                },
+                "emppoints":{
+                    "value": 0,
+                    "min": 0,
                     "max": 10
                 }
             }

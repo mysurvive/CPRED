@@ -1,0 +1,28 @@
+<form class="flexcol {{cssClass}}" autocomplete="off">
+
+    {{!-- Sheet Header --}}
+    <header class="sheet-header">
+        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100" />
+        <div class="header-fields">
+            <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name" /></h1>
+            <div class="resource">
+                <input type="text" name="derivedstats.health.value" value="{{derivedstats.health.value}}" data-dtype="Number" />
+                <span> / </span>
+                <input type="text" name="derivedstats.health.max" value="{{derivedstats.health.max}}" data-dtype="Number" />
+            </div>
+            <div class="resource">
+                <input type="text" name="derivedstats.luckpoints.value" value="{{derivedstats.luckpoints.value}}" data-dtype="Number" />
+                <span> / </span>
+                <input type="text" name="statistics.luck.max" value="{{statistics.luck.max}}" data-dtype="Number" />
+            </div>
+        </div>
+    </header>
+
+    {{!-- Sheet Tab Navigation --}}
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="Attributes">Description</a>
+        <a class="item" data-tab="Items">Items</a>
+        <a class="item" data-tab="Lifepath">Attributes</a>
+    </nav>
+
+</form>
